@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'flatpages/default.html' %}
+<html>
+<head>
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+</head>
+<body>
+    {% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h3>Наши контакты:</h3>
+    <p><strong><span style="color: #00ff00;">+7916098**** Саша +7991922**** Оля</span></strong></p>
+{% endblock content %}
+</body>
+</html>
